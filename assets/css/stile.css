@@ -20,7 +20,6 @@ a
 body
 {
   font-family: 'Montserrat', sans-serif;
-  background-color: lightgoldenrodyellow;
   width: 70%;
   margin: 2vw auto;
 }
@@ -28,11 +27,12 @@ header
 {
   font-family: 'Fredoka', sans-serif;
   color: #e42b6f;
-  font-size: 1vw;
+  font-size: 1.2vw;
 }
 .sottotitolo
 {
   margin: 2vw 0;
+  font-weight: bold;
 }
 header, .sottotitolo
 {
