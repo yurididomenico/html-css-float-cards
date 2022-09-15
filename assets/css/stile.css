@@ -7,6 +7,12 @@
   padding: 0;
   list-style-type: none;
 }
+.clearfix::after
+{
+  content: "";
+  clear: both;
+  display: table;
+}
 a
 {
   text-decoration: none;
@@ -15,37 +21,59 @@ body
 {
   font-family: 'Montserrat', sans-serif;
   background-color: lightgoldenrodyellow;
-  width: 80%;
+  width: 70%;
   margin: 2vw auto;
-  text-align: center;
 }
 header
 {
   font-family: 'Fredoka', sans-serif;
   color: #e42b6f;
-  font-size: 1.2rem;
+  font-size: 1vw;
 }
-main p
+.sottotitolo
 {
-  margin: 2vw;
+  margin: 2vw 0;
 }
-
-section
+header, .sottotitolo
 {
-  background-color: #000;
+  text-align: center;
+}
+.carta
+{
+  width: calc(100% / 3 - 2vw);
+  background-color: black;
   color: white;
+  float: left;
+  margin: 1vw;
 }
-section::after
+section img
 {
-  content: "";
-  clear: both;
-  display: table;
-}
-section img, section h3, section p
-{
-  width: 5vw;
+  width: 6vw;
   float: left;
 }
+.sezione-descrizione
+{
+  padding: 0 0 0 6.5vw;
+}
+.sezione-descrizione p
+{
+  margin: 0.6vw 0.4vw;
+  font-size: 1vw;
+}
+.nome
+{
+  font-family: 'Fredoka', sans-serif;
+}
+.email
+{
+  color: #5fb1da;
+}
+
+
+
+
+
+
 
 
 
