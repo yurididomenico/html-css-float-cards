@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@700&family=Montserrat:wght@400;600&display=swap');
+
+*
+{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+a
+{
+  text-decoration: none;
+}
+body
+{
+  font-family: 'Montserrat', sans-serif;
+  background-color: lightgoldenrodyellow;
+  width: 80%;
+  margin: 2vw auto;
+  text-align: center;
+}
+header
+{
+  font-family: 'Fredoka', sans-serif;
+  color: #e42b6f;
+  font-size: 1.2rem;
+}
+main p
+{
+  margin: 2vw;
+}
+
+section
+{
+  background-color: #000;
+  color: white;
+}
+section::after
+{
+  content: "";
+  clear: both;
+  display: table;
+}
+section img, section h3, section p
+{
+  width: 5vw;
+  float: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ______Fine________________________________________________________________ */
