@@ -45,6 +45,7 @@ header, .sottotitolo
   color: white;
   float: left;
   margin: 1vw;
+  box-shadow: 0.2vw 0.2vw 1vw #000000;
 }
 section img
 {
@@ -58,7 +59,7 @@ section img
 .sezione-descrizione p
 {
   margin: 0.6vw 0.4vw;
-  font-size: 1vw;
+  font-size: 0.8vw;
 }
 .nome
 {
@@ -68,6 +69,19 @@ section img
 {
   color: #5fb1da;
 }
+
+/* hover */
+.carta:hover
+{
+  box-shadow: 0.05vw 0.05vw 0.5vw #000000;  
+}
+
+
+
+
+
+
+
 
 
 
