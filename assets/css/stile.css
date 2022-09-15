@@ -38,6 +38,10 @@ header, .sottotitolo
 {
   text-align: center;
 }
+section
+{
+  margin: 1.5vw 0;
+}
 .carta
 {
   width: calc(100% / 3 - 2vw);
