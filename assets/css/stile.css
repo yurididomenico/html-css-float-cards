@@ -58,7 +58,7 @@ section img
 }
 .sezione-descrizione
 {
-  padding: 0 0 0 6.5vw;
+  float: left;
 }
 .sezione-descrizione p
 {
